@@ -44,6 +44,13 @@ public class Main {
     }
     public static void task4() {
         System.out.println("Задача 4");
+        int bottleInTwoMin = 16;
+        int day = bottleInTwoMin * 30 * 24;
+        int threeDays = day * 3;
+        int month = threeDays * 10;
+        System.out.println("За 1 день машина произвела " + day + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + threeDays + " штук бутылок");
+        System.out.println("За месяц машина произвела " + month + " штук бутылок");
 
     }
 
