@@ -4,7 +4,8 @@ public class Main {
         task2();
         task3();
         task4();
-
+        task5();
+        task6();
     }
 
     public static void task1() {
@@ -51,11 +52,30 @@ public class Main {
         System.out.println("За 1 день машина произвела " + day + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + threeDays + " штук бутылок");
         System.out.println("За месяц машина произвела " + month + " штук бутылок");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        int whiteForOneClassroom = 2;
+        int brownForOneClassroom = 4;
+        int forOneClassroom = brownForOneClassroom + whiteForOneClassroom;
+        int allClassroom = 120 / forOneClassroom;
+        int allBrownPaint = allClassroom * brownForOneClassroom;
+        int allWhitePaint = allClassroom * whiteForOneClassroom;
+        System.out.println("В школе, где " + allClassroom + " классов, нужно " + allWhitePaint +
+        " банок белой краски и " + allBrownPaint + " коричневой краски" );
 
     }
-
-
-
+    public static void task6() {
+        System.out.println("Задача 6");
+        int banana = 80 * 5;
+        int milk = 105 * 2;
+        int iceCream = 100 * 2;
+        int eggs = 70 * 4;
+        float all = banana + milk + iceCream + eggs;
+        float kg = all / 1000;
+        System.out.println(kg + " кг");
+        System.out.println(all + " г");
+    }
 
 
 
