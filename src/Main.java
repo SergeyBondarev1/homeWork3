@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
+        task4();
 
     }
 
@@ -30,6 +32,19 @@ public class Main {
         int e = -159;
         short f = 27897;
         byte g = 67;
+    }public static void task3() {
+        System.out.println("Задача 3");
+        int LP = 23;
+        int AS = 27;
+        int EA = 30;
+        int paper = 480;
+        int totalStudents = LP + AS + EA;
+        int forOne = paper / totalStudents;
+        System.out.println("На каждого ученика расчитано " + forOne + " листов бумаги");
+    }
+    public static void task4() {
+        System.out.println("Задача 4");
+
     }
 
 
