@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
     }
 
     public static void task1() {
@@ -76,11 +78,38 @@ public class Main {
         System.out.println(kg + " кг");
         System.out.println(all + " г");
     }
+    public static void task7() {
+        System.out.println("Задача 7");
+        int loseWeight250g = 7000 / 250;
+        int loseWeight500g = 7000 / 500;
+        System.out.println("Похудеет за " + loseWeight250g + " дней, если будет сбрасывать по 250г в сутки");
+        System.out.println("Похудеет за " + loseWeight500g + " дней, будет сбрасывать по 500г в сутки");
 
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
+        int Masha = (67760*110)/100;
+        int oldSalaryMasha = 67760 * 12;
+        int newSalaryMasha = Masha * 12;
+        int salaryIncreasedMasha = newSalaryMasha - oldSalaryMasha;
 
+        int Denis = (83690*110)/100;
+        int oldSalaryDenis = 83690 * 12;
+        int newSalaryDenis = Denis * 12;
+        int salaryIncreasedDenis = newSalaryDenis - oldSalaryDenis;
 
+        int Kristina = (76230*110)/100;
+        int oldSalaruKristina = 76230 * 12;
+        int newSalaryKristina = Kristina * 12;
+        int salaryIncreasedKristina = newSalaryKristina - oldSalaruKristina;
 
-
+        System.out.println("Маша теперь получает " + Masha + " рублей. Годовой доход вырос на " +
+                salaryIncreasedMasha + " рублей");
+        System.out.println("Денис теперь получает " + Denis + " рублей. Годовой доход вырос на " +
+                salaryIncreasedDenis + " рублей");
+        System.out.println("Кристина теперь получает " + Kristina + " рублей. Годовой доход вырос на " +
+                salaryIncreasedKristina + " рублей");
+    }
 
 
 
